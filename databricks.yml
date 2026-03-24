@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for Databricks-demo.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: Databricks-demo
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-1515176412793628.8.azuredatabricks.net
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://adb-1515176412793628.8.azuredatabricks.net
